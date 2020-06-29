@@ -11,6 +11,7 @@
 #BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the 
 #License for the specific language governing permissions and limitations under the License.
 #Editted only 1 line from original code(https://github.com/awslabs/aws-support-tools/blob/master/EMR/Assign_Private_IP/assign_private_ip.py) 
+#It works EMR 5.30.0 and above. If your cluster is using EMR 5.29 and below, use older script 
 
 import sys, subprocess
 
